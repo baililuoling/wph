@@ -1,0 +1,152 @@
+.icons{
+	background: url(../images/icons_register.png) no-repeat;
+}
+#header{
+	.header_inner{
+		width: 1000px;
+		height: 100px;
+		margin: 0 auto;
+		.logo{
+			float: left;
+			padding-top: 20px;
+			h1{
+				a{
+					display: block;
+					width: 125px;
+					height: 60px;
+					background-position: -308px -77px;
+					text-indent: -9999px;
+				}
+			}
+		}
+		.header-right{
+			float: right;
+			width: 304px;
+			height: 100px;
+		}
+	}
+}
+#main{
+	overflow: hidden;
+	.main_inner{
+		width: 1000px;
+		margin: 0 auto;
+		position: relative;
+		.bg{
+			width: 1920px;
+			height: 650px;
+			background: url(../images/banner_register.jpg) 0 0 no-repeat;
+			margin-left: -460px;
+		}
+		.login{
+			position: absolute;
+			width: 360px;
+			top: 50px;
+			right: 0;
+			background: #fff;
+			border-radius: 3px;
+			h2{
+				color: #f0067e;
+				font-size: 18px;
+				font-weight: bold;
+				line-height: 50px;
+				border: 1px solid #dfdfdf;
+				text-align: center;
+			}
+			form{
+				padding: 30px 28px 0 30px;
+				input{
+					width: 260px;
+					height: 44px;
+					border: 1px solid #d1c1d1;
+					padding-left: 40px;
+					background: #fff;
+				}
+				p{
+					height: 26px;
+					font-size: 12px;
+					color: #eb5042;
+					line-height: 26px;
+				}
+				.btn{
+					display: block;
+					width: 300px;
+					height: 42px;
+					color: #fff;
+					font-size: 16px;
+					text-align: center;
+					line-height: 42px;
+					background: #f0067e;
+					border-radius: 3px;
+					margin-top: 5px;
+					&:hover{
+						background: #f43597;
+					}
+				}
+				.inp{
+					position: relative;
+					i{
+						display: block;
+						width: 20px;
+						height: 44px;
+						background-position: -580px -111px;
+						position: absolute;
+						left: 16px;
+						top: 0;
+					}
+					.i02{
+						background-position: -544px -149px;
+					}
+				}
+			}
+			.wx{
+				border: 0.5px solid #dfdfdf;
+				margin: 50px 30px 30px;
+				position: relative;
+				.wx_inner{
+					width: 60px;
+					height: 40px;
+					position: absolute;
+					left: 120px;
+					top: -20px;
+					background: #fff;
+					a{
+						display: block;
+						width: 40px;
+						height: 40px;
+						background-position: -400px -161px;
+						margin: 0 auto;
+						&:hover{
+							background-position: -444px -161px;
+						}
+					}
+				}
+			}
+			.nav{
+				padding: 0 30px;
+				display: flex;
+				justify-content: space-between;
+				margin-bottom: 20px;
+				.tr{
+					color: #323232;
+					&:hover{
+						color: #f0067e;
+					}
+				}
+				.fa{
+					color: #989898;
+					cursor: default;
+				}
+				a:last-of-type{
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}
+#footer{
+	height: 78px;
+	color: #656565;
+	text-align: center;
+	line-height: 78px;
+}

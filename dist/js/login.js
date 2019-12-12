@@ -1,0 +1,1 @@
+"use strict";$(function(){$(".btn").click(function(){$.ajax({url:"./login.php",data:{us:$(".us").val(),psd:$(".psd").val()},success:function(t){"1"==t?location.assign("./index.html"):$(".txt").html("用户名或密码错误")}})})});

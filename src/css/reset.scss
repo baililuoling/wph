@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+/* css重置 */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select,img{
+	margin:0;	/* 外边距清0 */
+	padding:0;	/* 内边距清0 */
+}
+section,header,footer,nav,article,aside,figure,figcaption,main,dialog,canvas{
+	margin:0;	/* 外边距清0 */
+	padding:0;	/* 内边距清0 */
+}
+body,html{
+	font:12px "微软雅黑",Arial;	/* 设置全局基础字号12px 字体微软雅黑 */
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+	font-weight:normal;			/* 取消所有默认加粗的标签样式 */
+	font-size:100%;
+}
+a{
+	text-decoration:none;		/* 取消a标签默认下划线 */
+	color:#656565;
+}
+i,em{
+	font-style:normal;			/* 取消i,em默认倾斜 */
+}
+li{
+	list-style:none;			/* 取消列表默认项目符号 */
+}
+input{
+	outline:none;
+}
+img{
+	border:0;
+	vertical-align:middle;
+}
+.clearfix{
+	*zoom:1;	
+}
+.clearfix:after{
+	content:' ';
+	display:block;
+	height:0;
+	overflow:hidden;
+	clear:both;	
+}

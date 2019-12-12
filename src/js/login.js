@@ -1,0 +1,18 @@
+$(function(){
+	$('.btn').click(function(){
+		$.ajax({
+			url:"./login.php",
+			data:{
+				us:$('.us').val(),
+				psd:$('.psd').val()
+			},
+			success:function(data){
+				if(data=="1"){
+					location.assign('./index.html')
+				}else{
+					$('.txt').html('用户名或密码错误')
+				}
+			}
+		})
+	})
+})
